@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "chai aur backend series",
   "main": "script.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/script.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +14,10 @@
     "code"
   ],
   "author": "hamza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "global": "^4.4.0",
+    "nodemon": "^3.1.4"
+  }
 }
